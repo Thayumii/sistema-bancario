@@ -1,11 +1,27 @@
-# Sistema Bancário - Versão 1
+# Sistema Bancário - Versão 2
 
-Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digital Innovation One)**. O objetivo é implementar um sistema bancário simples em Python que permita realizar operações básicas, como depósito, saque e visualização de extrato.
+Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digital Innovation One), ele implementa um sistema bancário simples utilizando Python**. A versão 2 traz melhorias e novas funcionalidades, como a criação de usuários, contas correntes e a modularização das operações bancárias.
 
 ## Funcionalidades
-- **Depósito**: Permite ao usuário adicionar um valor positivo à conta bancária.
-- **Saque**: Limite de três saques diários com o valor máximo de R$500,00 por saque. Caso o saldo seja insuficiente ou o limite de saques seja excedido, o sistema exibirá mensagens apropriadas.
-- **Extrato**: Exibe todas as transações (saques e depósitos) realizadas, além do saldo atual. Se não houver movimentações, uma mensagem será exibida.
+1. **Criar Usuário (Cliente do Banco)**:
+   - O sistema permite criar um usuário informando `nome`, `CPF`, `data de nascimento` e `endereço`.
+   - O CPF é único para cada usuário e a validação impede cadastros duplicados.
+   - Os usuários são armazenados em uma lista.
+
+2. **Criar Conta Corrente**:
+   - O sistema permite vincular uma conta corrente a um usuário existente.
+   - Cada conta é composta por `agência`, `número da conta` e `usuário`.
+   - Um usuário pode ter mais de uma conta, e o número da conta é gerado automaticamente.
+  
+3. **Operações Bancárias**:
+   - **Depósito**: Permite realizar depósitos na conta bancária, atualizando o saldo e registrando a transação.
+   - **Saque**: Realiza saques respeitando o limite diário de saques e o valor máximo permitido por saque.
+   - **Extrato**: Exibe o histórico de transações (depósitos e saques) e o saldo atual da conta.
+  
+## Melhorias na Modularização:
+
+- As operações de saque, depósito e exibição de extrato foram separadas em funções específicas para melhor organização e manutenção do código.
+- Foram criadas funções para **criar usuário** e **criar conta corrente**, tornando o código mais modular.
 
 ## Regras do Desafio
 1. O sistema deve permitir apenas depósitos de valores positivos.
