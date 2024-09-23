@@ -1,6 +1,6 @@
 # Sistema Bancário - Versão 2
 
-Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digital Innovation One), ele implementa um sistema bancário simples utilizando Python**. A versão 2 traz melhorias e novas funcionalidades, como a criação de usuários, contas correntes e a modularização das operações bancárias.
+Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digital Innovation One)**, ele implementa um sistema bancário simples utilizando Python. A versão 2 traz melhorias e novas funcionalidades, como a criação de usuários, contas correntes e a modularização das operações bancárias.
 
 ## Funcionalidades
 1. **Criar Usuário (Cliente do Banco)**:
