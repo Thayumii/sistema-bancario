@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-# Sistema Bancário - Versão 1
-
-Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digital Innovation One)**. O objetivo é implementar um sistema bancário simples em Python que permita realizar operações básicas, como depósito, saque e visualização de extrato.
-
-## Funcionalidades
-- **Depósito**: Permite ao usuário adicionar um valor positivo à conta bancária.
-- **Saque**: Limite de três saques diários com o valor máximo de R$500,00 por saque. Caso o saldo seja insuficiente ou o limite de saques seja excedido, o sistema exibirá mensagens apropriadas.
-- **Extrato**: Exibe todas as transações (saques e depósitos) realizadas, além do saldo atual. Se não houver movimentações, uma mensagem será exibida.
-=======
 # Sistema Bancário - Versão 2
 
 Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digital Innovation One)**, ele implementa um sistema bancário simples utilizando Python. A versão 2 traz melhorias e novas funcionalidades, como a criação de usuários, contas correntes e a modularização das operações bancárias.
@@ -32,7 +22,6 @@ Este projeto foi desenvolvido como parte de um desafio proposto pela **DIO (Digi
 
 - As operações de saque, depósito e exibição de extrato foram separadas em funções específicas para melhor organização e manutenção do código.
 - Foram criadas funções para **criar usuário** e **criar conta corrente**, tornando o código mais modular.
->>>>>>> 9e1ff7e22da1fe6118dc0e69a70b415405a5f903
 
 ## Regras do Desafio
 1. O sistema deve permitir apenas depósitos de valores positivos.
